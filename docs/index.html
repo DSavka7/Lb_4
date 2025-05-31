@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honkai: Star Rail – Космічна пригода</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="stars-bg"></div>
+    <header>
+        <img src="/images/hsr-logo.png" alt="Honkai: Star Rail Logo" class="logo">
+        <h1>Ласкаво просимо на борт Звёздного експресу!</h1>
+        <div class="auth-buttons">
+            <span id="user-greeting" class="user-greeting"></span>
+            <a href="/login" class="auth-btn login-btn">Вхід</a>
+            <a href="/register" class="auth-btn register-btn">Реєстрація</a>
+            <button id="logout-btn" class="auth-btn logout-btn">Вихід</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <hr>
+            <div class="post">
+                <h2>Про Honkai: Star Rail</h2>
+                <p class="font-orbitron"><strong>Honkai: Star Rail</strong> – це <em>космічна стратегічна RPG</em> від HoYoverse. Вирушайте в подорож на <b>Звёздному експресі</b>, щоб досліджувати нові світи та боротися з <mark>Стелларонами</mark>.</p>
+                <p class="font-montserrat">Гра поєднує <i>пошагові бої</i> з <u>відкритим світом</u>. <sup>Версія 3.3</sup> додала нові сюжетні лінії та персонажів, таких як <s>старі вороги</s> і нові герої.</p>
+            </div>
+            <hr>
+
+            <div class="post">
+                <h3>Чому варто грати?</h3>
+                <p class="font-roboto">Гра пропонує <strong>глибокий сюжет</strong>, <em>яскравих персонажів</em> і <code>динамічні бої</code>. Повний дубляж робить персонажів <samp>живими</samp>.</p>
+                <ul>
+                    <li><b>Епічні пригоди</b> серед зірок.</li>
+                    <li><u>Різноманітні персонажі</u> з унікальними здібностями.</li>
+                    <li>Пошагові бої, натхненні <i>Persona 5</i>.</li>
+                </ul>
+            </div>
+            <hr>
+
+            <div class="post">
+                <h3>Оновлення 3.3: Гіацин</h3>
+                <p class="font-orbitron">Оновлення <strong>3.3 «Падение на пороге рассвета»</strong> представляє <b>Гіацина</b> – нового персонажа з унікальними здібностями.</p>
+                <img src="/images/hyacinth.png" alt="Hyacinth Character" class="character-img">
+                <ol>
+                    <li>Новий персонаж: <b>Гіацин</b>.</li>
+                    <li>Оновлення сюжету для <u>Космічної станції</u>.</li>
+                    <li>Покращення інтерфейсу для <em>зручності</em>.</li>
+                </ol>
+            </div>
+            <hr>
+
+            <div class="post">
+                <h3>Галерея персонажів</h3>
+                <div class="gallery" style="background-image: url('/images/star-rail-bg.jpg');">
+                    <img src="/images/hyacinth.png" alt="Character" class="gallery-img">
+                    <button class="gallery-prev">Попередній</button>
+                    <button class="gallery-next">Наступний</button>
+                </div>
+                <p class="font-roboto">Переглядайте улюблених персонажів, таких як <b>Гіацин</b>, <u>Кафка</u> та <em>Серебряний Вовк</em>.</p>
+            </div>
+            <hr>
+
+            <div class="post">
+                <h3>Калькулятор Звёздного нефриту</h3>
+                <div class="calc-form">
+                    <input type="number" id="jade-input" placeholder="Введіть кількість нефриту" min="0" required>
+                    <button id="calc-btn">Підрахувати</button>
+                    <p id="calc-result" class="font-roboto">Результати з’являться тут.</p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="post">
+                <h3>Активуйте промокод</h3>
+                <div class="promo-form">
+                    <form id="promo-form">
+                        <input type="text" placeholder="Введіть промокод (наприклад, STARRAIL2025)" required>
+                        <button type="submit" class="promo-btn">Активувати</button>
+                    </form>
+                    <p class="font-roboto">Отримайте <b>Звёздний нефрит</b>, <u>кредити</u> чи інші бонуси!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>Навігація</h3>
+            <a href="https://hsr.hoyoverse.com" target="_blank">Офіційний сайт</a>
+            <a href="https://www.hoyolab.com" target="_blank">HoYoLAB</a>
+            <h3>Останні оновлення</h3>
+            <a href="https://hsr.hoyoverse.com/news" target="_blank">Трейлер Гіацина</a>
+            <a href="https://hsr.hoyoverse.com/news" target="_blank">Оновлення 3.3</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Автор: Савка Діана | © 2025 Усі права захищено</p>
+    </footer>
+
+    <script src="/js/animations.js"></script>
+</body>
+</html>
